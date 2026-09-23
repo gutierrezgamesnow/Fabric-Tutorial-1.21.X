@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://grantcode.net",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/gutierrezgamesnow/Fabric-Tutorial-1.21.X"
 	},
 	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
@@ -22,7 +22,7 @@
 			"net.grantcode.tutorialmod.TutorialModDataGenerator"
 		],
         "client": [
-          "net.grantcode.tutorialmod.TutorialModClient"
+            "net.grantcode.tutorialmod.TutorialModClient"
         ]
 	},
 	"mixins": [
