@@ -2,6 +2,7 @@ package net.grantcode.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.grantcode.tutorialmod.block.ModBlocks;
 import net.grantcode.tutorialmod.item.ModItems;
 import net.minecraft.util.Identifier;
 
@@ -20,6 +21,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 
 	}
 }
